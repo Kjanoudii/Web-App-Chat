@@ -1,0 +1,90 @@
+ <!-- export default function Input(prop) {
+    handleSend, UpdateLocalStorage were props
+//     const { sentMessage } = prop;
+//     const [message, setMessage] = useState('');
+    
+//     const [image, setImage] = useState('')
+//     const [isImg, setIsImg] = useState(false)
+    
+//     // const [imageURL, setImageURL] = useState(''); // State to store image URL
+//     // let imageurl = ''
+
+//     const newMessage = {
+//         type: 'sent',
+//         message: message,
+//         date: getDate()
+
+//     };
+//     const imgMessage = {
+//         type: 'sent-img',
+//         message: image,
+//         date: getDate()
+
+//     };
+
+    
+    
+    
+   
+//     const [imageUpload, setImageUpload] = useState(null)
+//     const uploadImage = () => {
+//         if (imageUpload == null) return;
+//         const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
+//         setIsImg(true)
+
+//         uploadBytes(imageRef, imageUpload).then(() => {
+//             alert('image uploaded');
+
+//             getDownloadURL(imageRef).then((url) => {
+//                 setImage(url); // Set the image URL
+//                 console.log(url); 
+//             })
+            
+  
+//         }).catch((error) => {
+//             console.error('Error uploading image:', error);
+//         });
+        
+        
+        
+//     };
+    
+    
+//         useEffect(() => {
+          
+//         }, []);
+
+
+
+//     return (
+//         <div className="Chat-message-input">
+//             <section className="Chat-section">
+//                 {/* <button onClick={handleImageSend}> Send Image </button> */}
+//                 <div>
+//                     <input
+//                         type="file"
+//                         onChange={(e) => { setImageUpload(e.target.files[0]) }}
+//                     />
+
+//                     <button onClick={ uploadImage}>upload image</button>
+
+//                 </div>
+//                 <input
+
+//                     type={prop.type}
+//                     placeholder={prop.placeholder}
+//                     value={message}
+//                     onChange={(e) => setMessage(e.target.value)}
+//                 // onClick={setIsImg(false)}
+
+//                 // Update the input value when it changes
+//                 />
+//                 <button
+//                     onClick={() => {
+//                         sentMessage(prop.newId.toString(), isImg ? imgMessage : newMessage)
+//                             , setMessage(''), setIsImg(false)
+//                     }}>Send</button>
+//             </section>
+//         </div>
+//     );
+// } -->

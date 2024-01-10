@@ -1,0 +1,170 @@
+[
+    {
+        "ID": 1,
+        "name": "John Doe",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "sent",
+                "message": "Hello!",
+                "date": "2023-10-01 10:15:00"
+            },
+            {
+                "type": "received",
+                "message": "Hi there!",
+                "date": "2023-10-01 10:18:00"
+            },
+            {
+                "type": "sent",
+                "message": "How are you?",
+                "date": "2023-10-02 14:30:00"
+            }
+        ],
+        "last_message_sent": "How are you?",
+        "date_last_message_sent": "2023-10-02 14:30:00"
+    },
+    {
+        "ID": 2,
+        "name": "Jane Smith",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "received",
+                "message": "Good morning!",
+                "date": "2023-10-03 08:45:00"
+            },
+            {
+                "type": "sent",
+                "message": "Hi Jane!",
+                "date": "2023-10-03 08:48:00"
+            },
+            {
+                "type": "sent",
+                "message": "How was your weekend?",
+                "date": "2023-10-04 16:22:00"
+            }
+        ],
+        "last_message_sent": "How was your weekend?",
+        "date_last_message_sent": "2023-10-04 16:22:00"
+    },
+    {
+        "ID": 3,
+        "name": "Alice Johnson",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "sent",
+                "message": "Hi Alice!",
+                "date": "2023-10-05 09:00:00"
+            },
+            {
+                "type": "received",
+                "message": "Hello!",
+                "date": "2023-10-05 09:05:00"
+            },
+            {
+                "type": "received",
+                "message": "How's your day going? I wanted to ask you about the project that we were working on",
+                "date": "2023-10-05 09:10:00"
+            }
+        ],
+        "last_message_sent": "Hello!",
+        "date_last_message_sent": "2023-10-05 09:05:00"
+    },
+    {
+        "ID": 4,
+        "name": "Bob Anderson",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "received",
+                "message": "Hey Bob!",
+                "date": "2023-10-04 15:30:00"
+            },
+            {
+                "type": "sent",
+                "message": "Hi there!",
+                "date": "2023-10-04 15:35:00"
+            },
+            {
+                "type": "received",
+                "message": "What's up?",
+                "date": "2023-10-04 15:40:00"
+            }
+        ],
+        "last_message_sent": "What's up?",
+        "date_last_message_sent": "2023-10-04 15:40:00"
+    },
+    {
+        "ID": 5,
+        "name": "Eva Martinez",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "received",
+                "message": "Hi Eva!",
+                "date": "2023-10-03 11:20:00"
+            },
+            {
+                "type": "sent",
+                "message": "Hello!",
+                "date": "2023-10-03 11:25:00"
+            },
+            {
+                "type": "sent",
+                "message": "How's your day?",
+                "date": "2023-10-03 11:30:00"
+            }
+        ],
+        "last_message_sent": "How's your day?",
+        "date_last_message_sent": "2023-10-03 11:30:00"
+    },
+    {
+        "ID": 6,
+        "name": "Ahmad Saleh",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "received",
+                "message": "Hi Eva!",
+                "date": "2023-10-03 11:20:00"
+            },
+            {
+                "type": "sent",
+                "message": "Hello!",
+                "date": "2023-10-03 11:25:00"
+            },
+            {
+                "type": "sent",
+                "message": "How's your day?",
+                "date": "2023-10-03 11:30:00"
+            }
+        ],
+        "last_message_sent": "How's your day?",
+        "date_last_message_sent": "2023-10-03 11:30:00"
+    },
+    {
+        "ID": 7,
+        "name": "Abeir Sulaiman ",
+        "profile_pic": "/Images/user.png",
+        "messages": [
+            {
+                "type": "received",
+                "message": "Hi Eva!",
+                "date": "2023-10-03 11:20:00"
+            },
+            {
+                "type": "sent",
+                "message": "Hello!",
+                "date": "2023-10-03 11:25:00"
+            },
+            {
+                "type": "sent",
+                "message": "How's your day?",
+                "date": "2023-10-03 11:30:00"
+            }
+        ],
+        "last_message_sent": "How's your day?",
+        "date_last_message_sent": "2023-10-03 11:30:00"
+    }
+]

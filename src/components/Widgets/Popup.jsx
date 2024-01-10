@@ -6,16 +6,10 @@
 export default function Popup(prop) {
     const { changeBackGround, styles, setActiveStyle } = prop;
     
-    // const [formData, setFormData] = useState({
-    //     theme: "",
-    // });
-    // console.log(formData)
+    
     const handleThemeChange = (event) => {
         const { value } = event.target;
-        // setFormData((formData) => ({
-        //     ...formData,
-        //     [name]: value,
-        // }));
+        
 
         changeBackGround(value);
        
@@ -63,7 +57,7 @@ export default function Popup(prop) {
                             value="blue"
                             onChange={handleThemeChange}
                         />
-                        <label htmlFor="blue-theme">Blue</label>
+                        <label htmlFor="blue-theme">Default</label>
                     </div>
                     <br />
                     <button onClick={openSettings} className="popbtn">

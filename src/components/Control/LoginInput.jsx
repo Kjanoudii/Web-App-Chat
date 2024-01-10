@@ -7,8 +7,7 @@
 
 export default function Input(prop) {
 const {email ,setEmail,password,setPassword } =prop
-    // const [email, setEmail] = useState("");
-    // const [password, setPassword] = useState("");
+    
 
     const handleChange = (e) => {
         if (prop.type === "text") {

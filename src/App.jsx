@@ -19,10 +19,7 @@ function App() {
         <Route
           path="/components/Pages/ChatPage"  element={<ChatPage  />}
         />
-        {/* <Route
-          path="/components/Pages/FrontPage"
-          element={<FrontPage Login={Login} setLogin={setLogin} />}
-        /> */}
+        
       </Routes>
     </BrowserRouter>
   );

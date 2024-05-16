@@ -25,26 +25,30 @@ export default function Contacts(prop) {
   };
 
   return (
-    <div className={"Chat-contacts-default"} style={backGroundStyle}>
+    <div
+      className={"Chat-contacts-default container h-full"}
+      style={backGroundStyle}
+    >
       <div className="contact-header">
-        <h2 className="contacts-title">contacts</h2>
-
-        <h2>
-          <img
-            onClick={() => {
-              setOpenPopUp(true);
-            }}
-            id="settings-icon"
-            src={settingsIcon}
-          />
-        </h2>
-        <Link to="/components/Pages/LoginPage">
-          <img className="logout-img" onClick={LogOut} src={logoutImg} />
-        </Link>
+        <img
+          onClick={() => {
+            setOpenPopUp(true);
+          }}
+          id="settings-icon"
+          src={settingsIcon}
+        />
       </div>
 
       <br />
-      <ul className={"Chat-contact-list"} style={contactBackGround}>
+      <ul className={"Chat-contact-list "} style={contactBackGround}>
+        {contactsDb.map((contact, index) => (
+          <Contact
+            myKey={index}
+            key={index}
+            contact={contact}
+            display={display}
+          />
+        ))}
         {contactsDb.map((contact, index) => (
           <Contact
             myKey={index}

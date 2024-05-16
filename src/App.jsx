@@ -12,14 +12,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<LoginPage />} />
-        <Route 
-          path="/components/Pages/LoginPage" element={<LoginPage 
-          Login={Login} setLogin={setLogin} />} />
+        <Route index element={<ChatPage />} />
         <Route
-          path="/components/Pages/ChatPage"  element={<ChatPage  />}
+          path="/components/Pages/LoginPage"
+          element={<LoginPage Login={Login} setLogin={setLogin} />}
         />
-        
+        <Route path="/components/Pages/ChatPage" element={<ChatPage />} />
       </Routes>
     </BrowserRouter>
   );

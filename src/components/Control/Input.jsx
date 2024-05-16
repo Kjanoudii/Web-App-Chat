@@ -152,6 +152,7 @@ export default function Input(prop) {
         </label>
 
         <input
+        className="my-input"
           type={prop.type}
           placeholder={prop.placeholder}
           value={message}

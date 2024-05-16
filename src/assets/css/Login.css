@@ -1,3 +1,9 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -181,14 +187,8 @@ input:hover {
 
 }
 
-&:hover {
-    box-shadow: 0 0 6px blue;
 
-}
 
-&:active {
-    background: blue;
-}
 
 .social-media-btns {
 

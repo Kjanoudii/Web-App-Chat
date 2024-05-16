@@ -8,13 +8,13 @@ export default function LoginPage() {
     const [noAccount, setNoAccount] = useState(false)
    
     return (
-        <div className="login-page">
+        <div className="login-page h-screen">
             <LoginForm 
             noAccount={noAccount}
             setNoAccount={setNoAccount}
             
             />
-            <img className="main-img" src={img} />
+          
         </div>
     )
 }

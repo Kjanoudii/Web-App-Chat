@@ -16,7 +16,7 @@ export default function Popup(prop) {
 
   return (
     prop.trigger && (
-      <div className="popup">
+      <div className="popup ">
         <div className="popup-content-blue" style={styles}>
           <h2>Settings</h2>
 

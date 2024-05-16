@@ -69,33 +69,35 @@ export default function LoginForm(prop) {
 
   return (
     <div className="main">
-      <div className="center">
-        <h1>{noAccount ? "Register" : "Login"}</h1>
-        <form>
-          <Input
-            type="text"
-            label="Username"
-            setEmail={setEmail}
-            email={email}
-          />
-          <Input
-            type="password"
-            label="Password"
-            setPassword={setPassword}
-            password={password}
-          />
-          <LoginFooter
-            // Login={Login}
-            register={register}
-            signInWithGoogle={signInWithGoogle}
-            signInWithFacebook={signInWithFacebook}
-            logIn={logIn}
-            state={state}
-            noAccount={noAccount}
-            setNoAccount={setNoAccount}
-          />
-        </form>
-      </div>
+      <section className="container ">
+        <div className="center">
+          <h1>{noAccount ? "Register" : "Login"}</h1>
+          <form>
+            <Input
+              type="text"
+              label="Username"
+              setEmail={setEmail}
+              email={email}
+            />
+            <Input
+              type="password"
+              label="Password"
+              setPassword={setPassword}
+              password={password}
+            />
+            <LoginFooter
+              // Login={Login}
+              register={register}
+              signInWithGoogle={signInWithGoogle}
+              signInWithFacebook={signInWithFacebook}
+              logIn={logIn}
+              state={state}
+              noAccount={noAccount}
+              setNoAccount={setNoAccount}
+            />
+          </form>
+        </div>
+      </section>
     </div>
   );
 }

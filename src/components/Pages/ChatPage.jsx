@@ -119,7 +119,7 @@ export default function Page(prop) {
   };
 
   return (
-    <div className="Chat-main">
+    <div className="Chat-main ">
       <myContext.Provider
         value={{
           newId,
@@ -144,6 +144,7 @@ export default function Page(prop) {
           backGroundStyle={backGroundStyle}
         />
       </myContext.Provider>
+      
     </div>
   );
 }

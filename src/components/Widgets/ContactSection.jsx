@@ -12,6 +12,7 @@ const { contactBackGround, changeBackGround, backGroundStyle } = prop;
     const displayMessages = prop.displayMessages
 
     return (
+      
       <Contacts
         displayMessages={displayMessages}
         id={id}
